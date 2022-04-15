@@ -1,4 +1,4 @@
-# Machine_Translation
+# Neural Machine Translation
  Cleansing corpus, Using USE to select best translation and Finetune pretrained model([Helsinki-NLP/opus-mt-th-en](https://huggingface.co/Helsinki-NLP/opus-mt-th-en))
 ## Multilingual Universal Sentence Encoder
 ![USE-2](https://user-images.githubusercontent.com/44425803/163429640-e90015e6-da37-47bf-b1ad-329569695ab3.png)
@@ -13,4 +13,4 @@
 [Helsinki-NLP/opus-mt-th-en](https://huggingface.co/Helsinki-NLP/opus-mt-th-en) Pre-trained model
 
 ## Medium
-[Machine Translation](https://medium.com/@pawito236/neural-machine-translation-675360e2df34)
+[Neural Machine Translation](https://medium.com/@pawito236/neural-machine-translation-675360e2df34)
