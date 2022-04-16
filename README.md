@@ -2,7 +2,6 @@
  Cleansing corpus, Using USE to select best translation and Finetune pretrained model([Helsinki-NLP/opus-mt-th-en](https://huggingface.co/Helsinki-NLP/opus-mt-th-en))
 ## Multilingual Universal Sentence Encoder
 ![USE-2](https://user-images.githubusercontent.com/44425803/163429640-e90015e6-da37-47bf-b1ad-329569695ab3.png)
-![USE2](https://user-images.githubusercontent.com/44425803/163429460-14a5e45a-5df7-4888-8f30-bd417ca7c44f.png) 
 1. นำข้อมูลทั้งไทย และ อังกฤษมา ทำ Sentence Embedding ด้วย (USE)
 2. หา Distance ในที่นี้ผมใช้ Cosine Similarity
 3. หา Threshold ในการตัดว่า range ไหนถึงเป็นคู่ประโยคที่ถูกต้อง
@@ -13,4 +12,5 @@
 [Helsinki-NLP/opus-mt-th-en](https://huggingface.co/Helsinki-NLP/opus-mt-th-en) Pre-trained model
 
 ## Medium
-[Neural Machine Translation](https://medium.com/@pawito236/neural-machine-translation-675360e2df34)
+[Neural Machine Translation](https://medium.com/@pawito236/neural-machine-translation-675360e2df34) Explore overview of NMT also the pros and cons of each model. Focus on Transformer model what is the advantage from RNN or LSTM and its architecture.
+Clean corpus and use Transformer model with pre-trained from Huggingface(Helsinki-NLP/opus-mt-th-en). Then use Multilingual Universal Sentence Encoder (USE) to select Best translation from cousine-similarity score.
