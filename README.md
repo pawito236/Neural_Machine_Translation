@@ -14,3 +14,6 @@
 ## Medium
 [Neural Machine Translation](https://medium.com/@pawito236/neural-machine-translation-675360e2df34) Explore overview of NMT also the pros and cons of each model. Focus on Transformer model what is the advantage from RNN or LSTM and its architecture.
 Clean corpus and use Transformer model with pre-trained from Huggingface(Helsinki-NLP/opus-mt-th-en). Then use Multilingual Universal Sentence Encoder (USE) to select Best translation from cousine-similarity score.
+
+## Future Work
+Try [SentencePiece independent subword tokenizer and detokenizer for Neural Text Processing](https://medium.com/@pawito236/sentencepiece-a-simple-and-language-independent-subword-tokenizer-and-detokenizer-for-neural-text-2c57ea3abc1c)
